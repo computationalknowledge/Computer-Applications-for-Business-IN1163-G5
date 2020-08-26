@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+% $\usepackage[checklist]{enumitem}
+
+\renewcommand{\labelitemi}{$\Box$}
+\renewcommand{\labelitemi}{$\star$}
+\renewcommand{\labelenumi}{\theenumi}
+
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\title{Computer Applications for Business IN1163-G5}
+\author{Instructor: Peter Sigurdson }
+\date{Term Fall 2020}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\centerline{\includegraphics[scale=2]{reachForTheMoon.jpg}}
+\end{center}
+
+\include{CourseFormatAndOperations}
+\include{GradingAndEvaluationSchedule}
+\include{IN1163CourseOutline}
+\include{WorkingWithPowerShellPowerShellScriptingFileSystem}
+\include{PythonApplicationsForBusinessDataProcessing}
+
+\end{document}
